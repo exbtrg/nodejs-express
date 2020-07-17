@@ -1,0 +1,31 @@
+.nav-wrapper {
+    padding: 0 2rem;
+}
+
+.input-field.col label {
+    left: 0;
+}
+
+.price {
+    font-size: 1.5rem;
+}
+
+.course {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.course h1 {
+    margin-bottom: 2rem;
+}
+
+.course img {
+    max-width: 600px;
+    height: auto;
+}
+
+.course .price.big {
+    font-size: 2.5rem;
+}

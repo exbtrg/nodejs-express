@@ -1,0 +1,23 @@
+<h1>Add course</h1>
+
+<form action="/add" method="POST">
+    <div class="input-field col s6">
+        <input placeholder="Inter course name" id="title" type="text" name="title" class="validate" required>
+        <label for="title">Course name</label>
+        <span class="helper-text" data-error="Inter course name"></span>
+    </div>
+
+    <div class="input-field col s6">
+        <input placeholder="Inter price" id="price" type="text" name="price" class="validate" required min="1">
+        <label for="price"></label>
+        <span class="helper-text" data-error="Inter price"></span>
+    </div>
+
+    <div class="input-field col s6">
+        <input placeholder="Inter url for image" id="img" type="text" name="img" class="validate" required>
+        <label for="img">URL for image</label>
+        <span class="helper-text" data-error="Inter url for image"></span>
+    </div>
+
+    <button class="btn waves-effect waves-light" type="submit" name="action">Add course</button>
+</form>
